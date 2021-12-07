@@ -94,11 +94,6 @@ input:focus {
 .main aside .sass__image {
   width: 100%;
 }
-@media (min-width: 1101px) {
-  .main aside {
-    justify-content: space-between;
-  }
-}
 @media (min-width: 769px) and (max-width: 1100px) {
   .main aside .main aide {
     justify-content: center;
@@ -198,6 +193,13 @@ input:focus {
   .main aside .development .card i {
     padding-bottom: 20px;
   }
+  .main aside .cel {
+    width: 80%;
+  }
+  .main aside .cel svg {
+    margin-left: 80px;
+    margin-bottom: 30px;
+  }
 }
 .main section {
   width: 530px;
@@ -268,10 +270,10 @@ input:focus {
   font-family: "Poppins", sans-serif;
 }
 .main section .cel {
-  width: 60%;
+  width: 40%;
 }
 .main section .cel svg {
-  margin-left: 380px;
+  margin-left: 80px;
   margin-bottom: 30px;
 }
 .main section .cel .celular:hover {

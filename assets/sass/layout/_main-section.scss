@@ -40,18 +40,11 @@
         width: 100%;
       }
     }
-    @media (min-width: 1101px) {
-      justify-content: space-between;
-    }
     @media (min-width: 769px) and (max-width: 1100px) {
 
       .main aide {
-        justify-content: center;
-        
-        
-      }
-      
-      
+        justify-content: center;        
+      }      
     }
     @media (max-width: 768px) {
       .html-css {
@@ -114,6 +107,15 @@
         .card {
           @include card;
           width: 90%;
+        }
+      }
+
+      .cel {
+        width: 80%;
+  
+        svg {
+          margin-left: 80px;
+          margin-bottom: 30px;
         }
       }
     }
@@ -182,10 +184,10 @@
     }
 
     .cel {
-      width: 60%;
+      width: 40%;
 
       svg {
-        margin-left: 380px;
+        margin-left: 80px;
         margin-bottom: 30px;
       }
 
