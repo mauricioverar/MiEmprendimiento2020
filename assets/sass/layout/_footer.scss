@@ -1,0 +1,111 @@
+.footer {
+    background: $black;    
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+  
+    &__lista {      
+      display: flex;
+      justify-content: flex-end;  
+    }
+  
+    &__menu--legal {
+      font-family: $poppins;
+      flex-direction: flex-end;
+      color: $white;
+    }
+
+    &__menu--sobre {
+      font-family: $poppins;
+      margin: 0 20px;
+      color: $white;
+    }
+  
+    &__copy {
+      font-weight: $bold;      
+      font-family: $poppins;
+      margin-top: 12px;
+      color: $white;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    &__email {
+      display: grid;
+      grid-template-columns: auto auto;
+      column-gap: 1px;      
+    }
+
+    .correo {
+      height: 30px;
+      width: 90%;
+      border-radius: 10%;
+    }
+    
+    &__button {
+      margin-left: -10px;
+      height: 30px;
+      border-radius: 10%;        
+    }    
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      font-family: $poppins;
+      padding: 30px 50px;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+
+      &__copy {
+        margin-left: -10px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: $x-large;
+       }
+
+       &__lista {
+        margin-left: 52px;
+        text-align: center;
+        font-size: $x-large;   
+        display: grid;      
+        grid-template-rows: 2;
+      }
+
+      &__menu--legal {
+        color: $white;  
+      }
+
+      &__menu--sobre {
+        color: $white;        
+      }
+  
+      &__email {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-auto-flow: row;
+        grid-template-columns: auto;
+        row-gap: 2px; 
+
+        a input {        
+          border-radius: 14%;
+
+          .correo {
+            height: 30px;
+            width: 50%;
+            border-radius: 10%;
+          }          
+        }    
+      }
+     
+      &__button {
+        font-size: $large;
+        margin-left: 40%;
+        width: 24%;
+        border-radius: 10%;
+        padding: 4px 1px 8px 0;  
+      }      
+     }
+  }

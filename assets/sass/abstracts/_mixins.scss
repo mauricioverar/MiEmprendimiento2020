@@ -1,0 +1,22 @@
+ @mixin card {  
+  margin: 20px;
+  padding: 8px;
+  border: 1px solid $black;
+  width: 30rem;
+
+  .card-title {
+    font-size: $large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h6 {
+    font-size: $large;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+  }
+
+  i {
+    padding-bottom: 20px;
+  }
+}

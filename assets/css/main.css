@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: #FFAF6D;
+  border: none;
+}
+
+button:hover {
+  background: #FFFFFF;
+}
+
+input:focus {
+  background: #FFA500;
+}
+
+.thumbnail {
+  border-radius: 50%;
+}
+
+.thumbnail__icon {
+  max-width: 50px;
+}
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 1px;
+  justify-content: center;
+}
+.main aside {
+  width: 530px;
+  border: 3px solid #000000;
+  margin: 55px 10px 10px 10px;
+  float: left;
+}
+.main aside .html-css {
+  margin: 15px 0;
+  float: left;
+}
+.main aside .html-css__tarjeta .card {
+  margin: 20px;
+  padding: 8px;
+  border: 1px solid #000000;
+  width: 30rem;
+}
+.main aside .html-css__tarjeta .card .card-title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main aside .html-css__tarjeta .card h6 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main aside .html-css__tarjeta .card i {
+  padding-bottom: 20px;
+}
+.main aside .html-css__image {
+  width: 100%;
+}
+.main aside .sass {
+  float: left;
+}
+.main aside .sass__tarjeta .card {
+  margin: 20px;
+  padding: 8px;
+  border: 1px solid #000000;
+  width: 30rem;
+}
+.main aside .sass__tarjeta .card .card-title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main aside .sass__tarjeta .card h6 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main aside .sass__tarjeta .card i {
+  padding-bottom: 20px;
+}
+.main aside .sass__image {
+  width: 100%;
+}
+@media (min-width: 1101px) {
+  .main aside {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 769px) and (max-width: 1100px) {
+  .main aside .main aide {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .main aside .html-css {
+    float: left;
+  }
+  .main aside .html-css__image {
+    width: 100%;
+  }
+  .main aside .html-css__tarjeta .card {
+    margin: 20px;
+    padding: 8px;
+    border: 1px solid #000000;
+    width: 30rem;
+    width: 90%;
+    letter-spacing: 3px;
+  }
+  .main aside .html-css__tarjeta .card .card-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main aside .html-css__tarjeta .card h6 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main aside .html-css__tarjeta .card i {
+    padding-bottom: 20px;
+  }
+  .main aside .html-css__tarjeta .card p {
+    text-align: justify;
+  }
+  .main aside .sass {
+    float: left;
+  }
+  .main aside .sass__tarjeta .card {
+    margin: 20px;
+    padding: 8px;
+    border: 1px solid #000000;
+    width: 30rem;
+    width: 90%;
+  }
+  .main aside .sass__tarjeta .card .card-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main aside .sass__tarjeta .card h6 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main aside .sass__tarjeta .card i {
+    padding-bottom: 20px;
+  }
+  .main aside .sass__image {
+    width: 100%;
+  }
+  .main aside .development {
+    width: 90%;
+  }
+  .main aside .development__image {
+    width: 90%;
+  }
+  .main aside .development .card-body {
+    display: flex;
+    justify-content: center;
+  }
+  .main aside .development .card-body__ltda {
+    margin: 20px;
+    font-size: larger;
+  }
+  .main aside .development .card-body___redes {
+    margin-left: -100px;
+  }
+  .main aside .development .card {
+    margin: 20px;
+    padding: 8px;
+    border: 1px solid #000000;
+    width: 30rem;
+    width: 90%;
+  }
+  .main aside .development .card .card-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main aside .development .card h6 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main aside .development .card i {
+    padding-bottom: 20px;
+  }
+}
+.main section {
+  width: 530px;
+  border: 3px solid #000000;
+  margin: 55px 10px 10px 10px;
+  float: left;
+}
+.main section .card {
+  margin: 20px;
+  padding: 8px;
+  border: 1px solid #000000;
+  width: 30rem;
+  border: none;
+}
+.main section .card .card-title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main section .card h6 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main section .card i {
+  padding-bottom: 20px;
+}
+.main section .development {
+  margin: 0 20px;
+}
+.main section .development__card {
+  display: flex;
+  justify-content: center;
+}
+.main section .development__image {
+  margin-left: 20px;
+  width: 90%;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+.main section .development__ltda {
+  margin: 10px 0 0 40px;
+  font-size: 14px;
+}
+.main section .development_redes {
+  margin: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+.main section .development__title {
+  margin: 14px 0;
+  background: #2E1503;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+}
+.main section .development .card-title {
+  font-weight: 700;
+}
+.main section .lista {
+  list-style: circle;
+}
+.main section .lista li {
+  font-family: "Poppins", sans-serif;
+}
+.main section .cel {
+  width: 60%;
+}
+.main section .cel svg {
+  margin-left: 380px;
+  margin-bottom: 30px;
+}
+.main section .cel .celular:hover {
+  fill: #ff6600;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 0.5, 1, 1);
+  transition-delay: 1s;
+  transition: all 1s cubic-bezier(1, 0.5, 1, 1) 1s;
+}
+.main section .cel .movil {
+  animation: mover 1s ease-in 4 alternate forwards;
+  animation-iteration-count: infinite;
+}
+.main section .cel .rueda {
+  animation: girar 2s;
+  transform-origin: 80% 80%;
+  animation-iteration-count: infinite;
+}
+@keyframes girar {
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+@keyframes mover {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transform: translateX(100px);
+  }
+}
+@media (max-width: 757px) {
+  .main section .cel {
+    width: 80%;
+  }
+  .main section .cel svg {
+    margin-left: 80px;
+    margin-bottom: 30px;
+  }
+}
+
+.navbar {
+  background: #000000;
+  height: 80px;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+}
+.navbar #check {
+  display: none;
+}
+.navbar #check:checked ~ .navbar__list--derecha {
+  height: 33vh;
+  margin-left: 0%;
+}
+.navbar__container {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.navbar__list--derecha li {
+  list-style: none;
+}
+.navbar__menu {
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 30px;
+  cursor: pointer;
+}
+.navbar__menu:hover {
+  color: #FFAF6D;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background: #000000;
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+  }
+  .navbar #check {
+    display: none;
+  }
+  .navbar #check:checked ~ .navbar__list--derecha {
+    height: 33vh;
+    margin-left: 0%;
+  }
+  .navbar__list--derecha {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 68px;
+    text-align: end;
+    background-color: #000000;
+    opacity: 0.9;
+    margin-left: -116%;
+  }
+  .navbar__list--derecha a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    display: block;
+    line-height: 30px;
+    margin: 15px 50px 0 0;
+    font-size: 14px;
+  }
+  .navbar__menu {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .navbar__menu i {
+    margin-left: 70vw;
+  }
+  .navbar__menu:hover {
+    color: #FFAF6D;
+  }
+}
+@media screen and (min-width: 769px) {
+  .navbar {
+    background: #000000;
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+  }
+  .navbar__list--derecha {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  .navbar__list--derecha a {
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+  .navbar__menu {
+    display: none;
+  }
+}
+.header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+}
+.header__image {
+  width: 100%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+@media (max-width: 768px) {
+  .header__image {
+    width: 100vw;
+  }
+}
+.footer {
+  background: #000000;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__lista {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer__menu--legal {
+  font-family: "Poppins", sans-serif;
+  flex-direction: flex-end;
+  color: #FFFFFF;
+}
+.footer__menu--sobre {
+  font-family: "Poppins", sans-serif;
+  margin: 0 20px;
+  color: #FFFFFF;
+}
+.footer__copy {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-top: 12px;
+  color: #FFFFFF;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer__email {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1px;
+}
+.footer .correo {
+  height: 30px;
+  width: 90%;
+  border-radius: 10%;
+}
+.footer__button {
+  margin-left: -10px;
+  height: 30px;
+  border-radius: 10%;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-family: "Poppins", sans-serif;
+    padding: 30px 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer__copy {
+    margin-left: -10px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .footer__lista {
+    margin-left: 52px;
+    text-align: center;
+    font-size: 30px;
+    display: grid;
+    grid-template-rows: 2;
+  }
+  .footer__menu--legal {
+    color: #FFFFFF;
+  }
+  .footer__menu--sobre {
+    color: #FFFFFF;
+  }
+  .footer__email {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row;
+    grid-template-columns: auto;
+    row-gap: 2px;
+  }
+  .footer__email a input {
+    border-radius: 14%;
+  }
+  .footer__email a input .correo {
+    height: 30px;
+    width: 50%;
+    border-radius: 10%;
+  }
+  .footer__button {
+    font-size: 20px;
+    margin-left: 40%;
+    width: 24%;
+    border-radius: 10%;
+    padding: 4px 1px 8px 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
